@@ -1,0 +1,52 @@
+.f-contact {
+    margin-top: 100px;
+    text-align: center;
+}
+.f-contact h2 {
+    color: #F8D71C;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.f-contact p {
+    color: white;
+    margin-top: 7px;
+}
+.f-form {
+    margin-top: 50px;
+}
+.f-form input {
+    margin-right: 20px;
+    height: 35px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+}
+.f-form input:focus{
+    outline: none;
+}
+.f-form input::placeholder {
+    color: white;
+    font-style: italic;
+}
+.f-form span {
+    color: #F8D71C;
+    font-size: 19px;
+}
+.f-form span:hover {
+    cursor: pointer;
+    color:  #FC3F1D;
+}
+.f-hours {
+    margin-top: 25px;
+}
+.copyrights {
+    background-color: #F8D71C;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.copyrights span {
+    background-color: #F8D71C;
+}

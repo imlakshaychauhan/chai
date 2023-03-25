@@ -1,24 +1,27 @@
-import './App.css';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from './Home'
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import About from './pages/About'
+import Menu from './pages/Menu'
+import OnlineOrdering from './pages/OnlineOrdering'
+import Contact from './pages/Contact'
+import Footer from "./components/Footer";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/home",
-      element: <Home />
-    }, 
-    {
-      path: "/",
-      element: <h1>App.js</h1>,
-    }
-  ]);
   return (
-    <>
-      <h1>Header</h1>
-      <RouterProvider router={router} />
-      <h1>Footer</h1>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/online-ordering" element={<OnlineOrdering />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,111 @@
+.main-form {
+    border: 2px red solid;
+    margin: 0 auto;
+    background-color: #FC3F1D;
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.main-form span {
+    background-color: #FC3F1D;
+    color: white;
+    font-size: 35px;
+}
+.main-form p {
+    background-color: #FC3F1D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 17px;
+}
+.name-input, .guests-input {
+    display: flex;
+    flex-direction: column;
+    background-color: #FC3F1D;
+    display: block;
+}
+.name-input input, .guests-input input{
+    background-color: #FC3F1D;
+    border: 1px solid white;
+    color: white;
+    height: 35px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 10px;
+}
+.name-input input:focus, .guests-input input:focus{
+    outline: none;
+}
+.name-input input::placeholder, .guests-input input::placeholder {
+    font-size: 15px;
+    color: white;
+}
+.main-form button {
+    margin-top: 50px;
+    background-color: white;
+    color: #FC3F1D;
+    border: none;
+    height: 50px;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+}
+.main-form button:hover {
+    color: white;
+    background-color: #FC3F1D;
+    border: 2px solid white;
+}
+.about-section {
+    margin-bottom: 150px;
+}
+.res-img-div {
+    margin-left: 50%;
+    position: relative;
+}
+#sec, #thir {
+    margin-top: 300px;
+}
+.hindi-shayri {
+    margin-top: 200px;
+}
+.hindi-shayri p {
+    color: #FC3F1D;
+    font-size: 28px;
+    background-color: #FDF1B2;
+}
+
+@media(max-width: 1050px) {
+    .res-img-div {
+        display: none;
+    }
+}
+@media(min-width: 1051px) {
+    .main-form {
+        border: 2px red solid;
+        margin: 0 auto;
+        background-color: #FC3F1D;
+        width: 500px;
+        text-align: center;
+        border-radius: 4px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: absolute;
+        right: 45%;
+        top: 186%;
+    }
+    #card {
+        position: absolute;
+        right: 45%;
+        top: 390%;        
+    }
+    .hindi-shayri {
+        position: absolute;
+        right: 45%;
+        top: 270%;
+    }
+}
+

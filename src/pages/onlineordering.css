@@ -1,0 +1,55 @@
+.cart-bt {
+    width: fit-content;
+    padding: 4px;
+    font-size: 17px;
+    position: fixed;
+    margin-left: 90%;
+    top: 0;
+}
+.cart-bt, .cart-bt span, .cart-bt img {
+    background-color: #F8D71C;
+}
+.cart-bt:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.cart-bt span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.Menu-div {
+    margin: 0 auto;
+    width: 50%;
+}
+.s-dish {
+    margin-top: 30px;
+}
+.Menu-div h1, .Menu-div h3 {
+    color: #F8D71C;
+}
+.Menu-div h3 {
+    font-size: 20px;
+}
+h4 {
+    color: white;
+}
+.cars {
+    display: flex;
+    margin-top: 50px;
+}
+.car {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.car:hover {
+    opacity: 0.8;
+    cursor:pointer;
+}
+.car p {
+    color: white;
+    margin-top: 30px;
+}

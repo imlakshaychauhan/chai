@@ -1,0 +1,61 @@
+.side-dish {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.side-dish h1 {
+    color: #F8D71C;
+    margin-top: 240px;
+    margin-bottom: 20px;
+}
+.side-dish h4 {
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.side-dish hr {
+    border: 2px solid #F8D71C;
+}
+.cards {
+    display: flex;
+    align-items: center;
+}
+.card {
+    /* font-family:  */
+    width: 80%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.card h3, .card p {
+    margin-bottom: 20px;
+}
+button {
+    padding: 5px;
+    margin: 3px;
+    background-color: #F8D71C;
+    border: none;
+    color: #035F3C;
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #FC3F1D;
+    font-size: 20px;
+}
+@media(max-width: 1477px) {
+    .side-dish {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
