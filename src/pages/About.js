@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './about.css'
+import chaiphoto from '../images/chai.jpg'
+import res from '../images/restaurant-3.jpg'
 
 const About = () => {
   return (
@@ -25,7 +27,7 @@ const About = () => {
       </div>
       <div className='ab-div'>
         <div className='img-div'>
-          <img src="/chai.jpg" alt="Restaurant" width="500" height="400" />
+          <img src={chaiphoto} alt="Restaurant" width="500" height="400" />
         </div>
         <div className='main-c'>
             <span>Our Story</span>
@@ -39,7 +41,7 @@ const About = () => {
             <button id="r-more">Read More..</button>
         </div>
         <div className='c-img'>
-          <img src="/restaurant-3.jpg" alt="Restaurant" width="700" height="500" />
+          <img src={res} alt="Restaurant" width="700" height="500" />
         </div>
       </div>
     </>

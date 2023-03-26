@@ -1,11 +1,13 @@
 import React from 'react'
 import './reserveform.css'
+import res1 from '../images/restaurant.jpg'
+import tandoor from '../images/tandoor.jpg'
 
 const ReserveForm = () => {
   return (
     <>
       <div className='res-img-div' id="fir" >
-        <img src="/restaurant.jpg" alt="Restaurant" width="500" height="550" />
+        <img src={res1} alt="Restaurant" width="500" height="550" />
       </div>
       <div className='main-form' id="card1" >
           <span>Reserve a Table</span>
@@ -21,7 +23,7 @@ const ReserveForm = () => {
       </div>
 
       <div className='res-img-div' id='sec' >
-        <img src="/tandoor.jpg" alt="Restaurant" width="500" height="350" />
+        <img src={tandoor} alt="Restaurant" width="500" height="350" />
       </div>
       <div className='hindi-shayri'>
         <p>खुशी तब होती है जब आप  </p>

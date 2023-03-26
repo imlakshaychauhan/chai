@@ -109,7 +109,6 @@ function App() {
         </div>
         : null
         }
-
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
