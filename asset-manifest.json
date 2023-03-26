@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/chai/static/css/main.f90de5ca.css",
-    "main.js": "/chai/static/js/main.d6417082.js",
+    "main.js": "/chai/static/js/main.e72b106f.js",
+    "static/media/restaurant.jpg": "/chai/static/media/restaurant.b1ecfd8088a4a42a51b2.jpg",
+    "static/media/restaurant-3.jpg": "/chai/static/media/restaurant-3.94c4d943408d4f6ddb55.jpg",
+    "static/media/chai.jpg": "/chai/static/media/chai.7173dc659c5289b42acd.jpg",
+    "static/media/tandoor.jpg": "/chai/static/media/tandoor.3a2538dd427d9315922e.jpg",
+    "static/media/contact.jpg": "/chai/static/media/contact.906cc830f0e80710b6d7.jpg",
     "index.html": "/chai/index.html",
     "main.f90de5ca.css.map": "/chai/static/css/main.f90de5ca.css.map",
-    "main.d6417082.js.map": "/chai/static/js/main.d6417082.js.map"
+    "main.e72b106f.js.map": "/chai/static/js/main.e72b106f.js.map"
   },
   "entrypoints": [
     "static/css/main.f90de5ca.css",
-    "static/js/main.d6417082.js"
+    "static/js/main.e72b106f.js"
   ]
 }
