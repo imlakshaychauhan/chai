@@ -35,6 +35,7 @@
 .nav-link {
     text-decoration: none;
     background-color: #F8D71C;
+    color: #035F3C;
 }
 .links span:hover{
     color: #FC3F1D;
@@ -55,7 +56,7 @@
 }
 .second #s {
     color: #F8D71C;
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 .second img {
     display:none;

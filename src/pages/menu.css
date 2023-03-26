@@ -25,12 +25,18 @@
     width: 80%;
     color: white;
     margin-top: 30px;
+    padding: 20px;
+    font-size: 18px;
     margin-bottom: 30px;
     margin-right: 20px;
     margin-left: 20px;
+    background-color: #F8D71C;
+    border-radius: 7px;
 }
 .card h3, .card p {
     margin-bottom: 20px;
+    background-color: #F8D71C;
+    color: black;
 }
 button {
     padding: 5px;

@@ -1,0 +1,86 @@
+.order-div {
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.check-div {
+    display: flex;
+}
+.item-div {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+.details {
+    margin-right: 50px;
+}
+.quan {
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-right: 19px;
+    border-radius: 8px;
+}
+.quan p {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.sd-link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 300px;
+    padding-top: 5px;
+}
+.sd-link:hover {
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+}
+h1 {
+    color: white;
+}
+#name {
+    font-size: 24px;
+    color: white;
+}
+#quan-id {
+    color: black;
+    background-color: white;
+    padding-top: 7px;
+    font-size: 20px;
+}
+.item-div span {
+    color: #F8D71C;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+.check-btn {
+    text-decoration: none;
+    color: #035F3C;
+    background-color:#F8D71C;
+    margin-left: 100px;
+    padding: 20px;
+}
+.check-btn span {
+    font-size: 17px;
+    background-color:#F8D71C;
+}
+.check-btn:hover {
+    color: black;
+    cursor: pointer;
+    background-color:#F8D71C;
+}
