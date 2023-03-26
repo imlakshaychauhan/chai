@@ -1,17 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useContext } from 'react'
+import { Link } from 'react-router-dom'
 import { itemsContext } from '../App'
 import './cart.css'
 
 const Cart = () => {
-    const {items, setItems, cartItems, setCartItems} = useContext(itemsContext);
+    const {items, setItems, cartItems, setCartItems } = useContext(itemsContext);
+
   return (
     <>
         <div className='order-div' >
             <div className='check-div' >
             <div> <h1>My Order ({cartItems}) </h1> </div>
-            <div className='check-btn'>
-                <span>Checkout</span>
+            <div className='check-btn' >
+                <Link className='nav-link' to="/checkout"> <span>Checkout</span> </Link>
             </div>
             </div> {
                 items.map((item) => (
@@ -47,7 +49,6 @@ const Cart = () => {
                 ))
             }
         </div>
-
     </>
   )
 }

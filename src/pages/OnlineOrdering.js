@@ -1,12 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './onlineordering.css'
-import { useContext } from 'react'
-import { itemsContext } from '../App'
 import OrderFast from '../components/OrderFast'
 
 const OnlineOrdering = () => {
-  const {cartItems} = useContext(itemsContext);
   return (
     <>
       <div className='welcome-section'>

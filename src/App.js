@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
 import { createContext, useState } from "react";
 import { Link } from "react-router-dom";
+import Checkout from "./pages/Checkout";
 
 export const itemsContext = createContext();
 
@@ -97,7 +98,7 @@ function App() {
   const [cartItems, setCartItems] = useState(0);
   return (
     <BrowserRouter>
-      <itemsContext.Provider value={{items, setItems, cartItems, setCartItems}} >
+      <itemsContext.Provider value={{items, setItems, cartItems, setCartItems }} >
         {
           cartItems > 0 ? 
         <div className='cart-bt' >
@@ -118,7 +119,9 @@ function App() {
             <OnlineOrdering />
           } />
         <Route path="/contact" element={<Contact />} />
+
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />

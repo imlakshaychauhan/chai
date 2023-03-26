@@ -1,0 +1,33 @@
+.checkout-div {
+    border: 3px solid #F8D71C;
+    width: 35%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 14px;
+}
+h1, h4 {
+    text-align: center;
+    margin: 10px;
+}
+.navi-link {
+    color: #F8D71C;
+}
+.navi-link:hover {
+    color: white;
+}
+.order-btn {
+    background-color: #F8D71C;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+.order-btn span {
+    background-color: #F8D71C;
+    font-size: 18px;
+    color: #035F3C;
+}
+.order-btn:hover, .order-btn:hover span {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

@@ -5,9 +5,9 @@ const ReserveForm = () => {
   return (
     <>
       <div className='res-img-div' id="fir" >
-        <img src="/restaurant.jpg" width="500" height="550" />
+        <img src="/restaurant.jpg" alt="Restaurant" width="500" height="550" />
       </div>
-      <div className='main-form'>
+      <div className='main-form' id="card1" >
           <span>Reserve a Table</span>
           <div className='name-input'>
             <p>Host Name</p>
@@ -21,7 +21,7 @@ const ReserveForm = () => {
       </div>
 
       <div className='res-img-div' id='sec' >
-        <img src="/tandoor.jpg" width="500" height="350" />
+        <img src="/tandoor.jpg" alt="Restaurant" width="500" height="350" />
       </div>
       <div className='hindi-shayri'>
         <p>खुशी तब होती है जब आप  </p>
@@ -30,10 +30,7 @@ const ReserveForm = () => {
         <p> सद्भाव में हैं महात्मा गांधी</p>
       </div>
 
-      <div className='res-img-div' id='thir' >
-        <img src="/restaurant-2.jpg" width="450" height="550" />
-      </div>
-      <div className='main-form' id="card" >
+      <div className='main-form' id="last">
           <span>Our Story</span>
           <div className='name-input'>
             <p>We are the tea seller around the</p>

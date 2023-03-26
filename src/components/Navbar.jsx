@@ -1,11 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css'
-import { itemsContext } from '../App';
-import { useContext } from 'react';
 
 const Navbar = () => {
-  const {cartItems} = useContext(itemsContext);
   return (
     <div className='main-div'>
       <div className='first'>

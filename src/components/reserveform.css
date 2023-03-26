@@ -20,6 +20,9 @@
     color: white;
     font-size: 17px;
 }
+#last {
+    margin-top: 100px;
+}
 .name-input, .guests-input {
     display: flex;
     flex-direction: column;
@@ -93,14 +96,11 @@
         border-radius: 4px;
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    #card1 {
         position: absolute;
         right: 45%;
         top: 186%;
-    }
-    #card {
-        position: absolute;
-        right: 45%;
-        top: 390%;        
     }
     .hindi-shayri {
         position: absolute;
