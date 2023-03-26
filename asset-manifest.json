@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chai/static/css/main.f90de5ca.css",
+    "main.js": "/chai/static/js/main.d6417082.js",
+    "index.html": "/chai/index.html",
+    "main.f90de5ca.css.map": "/chai/static/css/main.f90de5ca.css.map",
+    "main.d6417082.js.map": "/chai/static/js/main.d6417082.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f90de5ca.css",
+    "static/js/main.d6417082.js"
+  ]
+}
